@@ -1,8 +1,20 @@
 <template>
-  <div>
-    <nuxt/>
+  <div class="main-grid">
+    <Sidenav/>
+    <main>
+      <nuxt/>
+    </main>
   </div>
 </template>
+
+<script>
+import Sidenav from '../components/Sidenav'
+export default {
+  components: {
+    Sidenav
+  }  
+}
+</script>
 
 <style>
 html {
@@ -21,22 +33,15 @@ html {
   margin: 0;
 }
 
-.teaser,
-.column {
-  font-size: 2rem;
-  text-align: center;
-  line-height: 3;
-  background: #ebeff2;
-  border-radius: 10px;
-  margin: 10px 5px;
+.main-grid {
+  background: #BABBBD;
+  display: grid;
+  grid-template-columns: 240px 1fr [main] 6fr 1fr
 }
 
-.grid {
-  display: flex;
-}
-
-.column {
-  flex: 1;
+main {
+  padding: 148px 0 148px 0;
+  grid-column: main;
 }
 </style>
 

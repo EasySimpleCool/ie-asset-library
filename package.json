@@ -16,6 +16,9 @@
     "storyblok-nuxt": "1.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^7.1.0"
   }
 }
