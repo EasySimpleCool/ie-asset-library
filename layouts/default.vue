@@ -27,6 +27,24 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+h1 {
+font-family: 'Crimson Text', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 57px;
+color: #1B1B1B;
+}
+h3 {
+font-family: proxima-nova, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #202020;
+}
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -34,7 +52,7 @@ html {
 }
 
 .main-grid {
-  background: #BABBBD;
+  background: #F8F8F8;
   display: grid;
   grid-template-columns: 240px 1fr [main] 6fr 1fr
 }

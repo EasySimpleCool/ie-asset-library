@@ -1,7 +1,7 @@
 <template>
     <div v-editable="blok" class="asset-featured">
-      <img :src="blok.image">
-      <button :href="blok.png" download="ie-logo-primary">Downloads</button>
+      
+      <a href="./static/images/ie-logo-primary.png" download><img :src="blok.image"></a>
     </div>
 </template>
 
