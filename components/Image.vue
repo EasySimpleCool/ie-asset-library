@@ -13,6 +13,7 @@ export default {
 <style scoped>
 .image {
   text-align: center;
+  grid-column: span 1;
 }
 
 img {
