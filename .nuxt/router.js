@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _bd7b20d4 = () => interopDefault(import('../pages/logos.vue' /* webpackChunkName: "pages/logos" */))
-const _65d17980 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _230816d5 = () => interopDefault(import('../pages/_index.vue' /* webpackChunkName: "pages/_index" */))
+const _119979aa = () => interopDefault(import('../pages/_logos.vue' /* webpackChunkName: "pages/_logos" */))
 
 Vue.use(Router)
 
@@ -80,13 +80,13 @@ export function createRouter() {
     scrollBehavior,
 
     routes: [{
-      path: "/logos",
-      component: _bd7b20d4,
-      name: "logos"
-    }, {
-      path: "/",
-      component: _65d17980,
+      path: "/:index",
+      component: _230816d5,
       name: "index"
+    }, {
+      path: "/:logos",
+      component: _119979aa,
+      name: "logos"
     }],
 
     fallback: false
