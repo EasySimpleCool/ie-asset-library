@@ -1,31 +1,44 @@
 <template>
-  <div>
-    <ul class="footer-links">
-      <nuxt-link to="/"><button>Home</button></nuxt-link>
-      <nuxt-link to="/logos"><button>Logos</button></nuxt-link>
-      <nuxt-link to="/colours"><button>Colours</button></nuxt-link>
-      <nuxt-link to="/typography"><button>Typography</button></nuxt-link>
+  <div class="sidenav-container">
+    <ul class="sidenav-links">
+      <nuxt-link to="/">Home</nuxt-link>
+      <nuxt-link to="/logos">
+        Logos
+      </nuxt-link>
+      <nuxt-link to="/colours">
+        Colours
+      </nuxt-link>
+      <nuxt-link to="/typography">
+        Typography
+      </nuxt-link>
     </ul>
   </div>
 </template>
 
 <style scoped>
-div {
+.sidenav-container {
   background: #202020;
-  height: 100%;
+  height: 100vh;
+  width: 240px;
+  position: fixed;
 }
 
-.footer-links {
+.sidenav-links {
   display: flex;
   flex-direction: column;
-}
-
-.footer-links {
   text-align: center;
-  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 10rem;
+  padding: 0px;
+}
+
+a {
+  color: #ffffff;
+  box-sizing: border-box;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  padding: 10px 15px;
 }
 </style>
