@@ -7,18 +7,6 @@
       <h3>OUR LOGO</h3>
     </div>
     <component v-if="story.content.component" :key="story.content._uid" :blok="story.content" :is="story.content.component | dashify"></component>
-    <!-- <div class="feature-tile">
-      <a href="/images/myw3schoolsimage.jpg" download="w3logo"><component v-if="story.content.component" :key="story.content._uid" :blok="story.content" :is="story.content.component | dashify"></component></a>
-      
-    </div> -->
-    <!-- <section class="standard-grid">
-      <div class="standard-tile">standard tile 1</div>
-      <div class="standard-tile">standard tile 2</div>
-    </section>
-    <div class="sub-header">
-      <h3>TREATMENT</h3>
-    </div>
-    <div class="feature-tile">feature tile</div> -->
   </div>
 </template>
 
