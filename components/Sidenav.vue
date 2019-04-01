@@ -2,15 +2,9 @@
   <div class="sidenav-container">
     <ul class="sidenav-links">
       <nuxt-link to="/">Home</nuxt-link>
-      <nuxt-link to="/logos">
-        Logos
-      </nuxt-link>
-      <nuxt-link to="/colours">
-        Colours
-      </nuxt-link>
-      <nuxt-link to="/typography">
-        Typography
-      </nuxt-link>
+      <nuxt-link to="/logos">Logos</nuxt-link>
+      <nuxt-link to="/colours">Colours</nuxt-link>
+      <nuxt-link to="/typography">Typography</nuxt-link>
     </ul>
   </div>
 </template>
@@ -34,12 +28,19 @@
 }
 
 a {
+  font-family: proxima-nova, sans-serif;
+  font-size: 18px;
   color: #ffffff;
   box-sizing: border-box;
   text-decoration: none;
   width: 100%;
   display: block;
-  padding: 10px 15px;
+  padding: 19px 15px;
 }
 
+a:hover {
+  -webkit-transition: all 0.3s ease-out;
+  background: #2A2A2A;
+  transition: all 0.3s ease-out;
+}
 </style>
