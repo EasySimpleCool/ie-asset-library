@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@haiku/easysimplecool-infoicon": "0.0.6",
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
     "storyblok-nuxt": "1.0.0"

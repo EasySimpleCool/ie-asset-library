@@ -1,10 +1,13 @@
 <template>
   <div>
+    <InfoIcon :loop="true"></InfoIcon>
     <component v-if="story.content.component" :key="story.content._uid" :blok="story.content" :is="story.content.component | dashify"></component>
   </div>
 </template>
 
 <script>
+import InfoIcon from '@haiku/easysimplecool-infoicon/vue';
+
 const loadData = function({api, cacheVersion, errorCallback, version, path}) {
   return api.get(`cdn/stories/${path}`, {
     version: version,
@@ -23,6 +26,9 @@ const loadData = function({api, cacheVersion, errorCallback, version, path}) {
 }
 
 export default {
+  components: {
+    InfoIcon
+  },
   data () {
     return { story: { content: {} } }
   },

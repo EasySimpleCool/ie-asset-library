@@ -11,6 +11,7 @@
 </template>
 
 <script>
+
 const loadData = function({api, cacheVersion, errorCallback, version, path}) {
   return api.get(`cdn/stories/${path}`, {
     version: version,
