@@ -1,11 +1,5 @@
 <template>
   <div class="page-grid">
-    <div class="sub-header">
-      <h1>Logos</h1>
-    </div>
-    <div class="sub-header">
-      <h3>OUR LOGO</h3>
-    </div>
     <component v-if="story.content.component" :key="story.content._uid" :blok="story.content" :is="story.content.component | dashify"></component>
   </div>
 </template>

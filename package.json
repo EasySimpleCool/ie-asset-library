@@ -1,8 +1,8 @@
 {
-  "name": "vue-nuxt-storyblok-boilerplate",
+  "name": "ie-asset-library",
   "version": "1.0.0",
-  "description": "Nuxt.js Storyblok Boilerplate",
-  "author": "Alexander Feiglstorfer <delooks@gmail.com>",
+  "description": "ie-asset-library",
+  "author": "Q",
   "private": true,
   "scripts": {
     "dev": "nuxt",
