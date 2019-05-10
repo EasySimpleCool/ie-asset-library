@@ -36,7 +36,7 @@ line-height: 57px;
 color: #1B1B1B;
 }
 h3 {
-font-family: proxima-nova, sans-serif;
+font-family: 'Proxima-Nova', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 12px;

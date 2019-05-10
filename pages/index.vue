@@ -1,7 +1,7 @@
 <template>
   <div>
     <InfoIcon :loop="true"></InfoIcon>
-    <component v-if="story.content.component" :key="story.content._uid" :blok="story.content" :is="story.content.component | dashify"></component>
+    <!-- <component v-if="story.content.component" :key="story.content._uid" :blok="story.content" :is="story.content.component | dashify"></component> -->
   </div>
 </template>
 
